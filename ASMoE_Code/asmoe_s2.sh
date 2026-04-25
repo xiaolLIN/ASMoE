@@ -11,7 +11,7 @@ lora_rank=$8
 reg_lmd=$9
 
 select_exp_num=3
-lr=0.00005
+lr=0.00001
 two_stage=1
 
 if [ $data == "beauty" ] ; then

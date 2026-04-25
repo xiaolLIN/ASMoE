@@ -166,7 +166,7 @@ class ASMoE_SAS_S2(SequentialRecommender):
             raise NotImplementedError("Make sure 'loss_type' in ['BPR', 'CE']!")
 
         # --- stage 2 ---
-        self.attribute_hidden_size = [config['hidden_size'] // 2]
+        self.attribute_hidden_size = [config['hidden_size'] // 4]
         self.selected_features = config['selected_features']
         self.pooling_mode = 'mean'
         self.feature_embed_layer_list = nn.ModuleList(
