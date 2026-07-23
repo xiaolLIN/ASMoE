@@ -1,5 +1,5 @@
 # ASMoE
-The source code of our ASMoE.
+The source code of our RecSys 2026 paper "Automated Selection-based Mixture-of-Experts with Dual-stage Input–Target Pattern Learning for Sequential Recommendation".
 
 
 ## Preparation
@@ -45,4 +45,11 @@ To obtain the first-stage trained ASMoE, run the command`./run_asmoe_s1.sh`. <br
 For the fast reproduction, we provide the trained models of the first stage in `./saved/`. <br>
 Run the command`./run_asmoe_s2.sh`. After training and evaluation, check the results in `./run_results/`.
 
+
+## Contact
+If you have any questions, please send emails to Xiaolin Lin (linxiaolin2021@email.szu.edu.com).
+
+
+## Credit
+This repository is based on [RecBole](https://github.com/RUCAIBox/RecBole).
 
